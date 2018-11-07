@@ -1,3 +1,10 @@
+**Scenario**:  
+Deployment example of IBM App Connect Enterprise Version 11.0 to IBM Cloud Private and configure it to automatically load BAR file (IIB Flows) from shared NFS directory.
+
+**Benefits:**
+- Shared drive with IIB flows which can be modified independetly.
+- When new instance of ACE is started it loads BAR files from shared NFS drive automatically.
+
 ### Install IBM ACE from PPA Archive
 
 	bx pr load-ppa-archive --archive /home/user/DOWNLOADS/ACE_V11.0_Container.tar.gz --clustername mycluster.icp
